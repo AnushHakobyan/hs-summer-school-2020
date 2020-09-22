@@ -19,3 +19,9 @@ body {
     color: #565656;
     cursor: pointer;
 }
+
+.monthName {
+    cursor: none;
+    font-size: 16px;
+    color: #232323;
+}

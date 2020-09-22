@@ -14,6 +14,7 @@
     const createMonthsListItem = (month) => {
         const monthListItem = document.createElement('li');
         monthListItem.innerText = month;
+        monthListItem.className = 'monthName';
         return monthListItem;
     };
 
