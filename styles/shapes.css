@@ -1,0 +1,63 @@
+#square {
+    width: 180px;
+    height: 180px;
+    background-color: #98BC56;
+}
+
+#square:hover {
+    background-color: cadetblue;
+}
+
+#circle {
+    width: 180px;
+    height: 180px;
+    background-color: #A1B1DD;
+    /*border-bottom-left-radius: 90px;*/
+    /*border-bottom-right-radius: 90px;*/
+    /*border-top-left-radius: 90px;*/
+    /*border-top-right-radius: 90px;*/
+    border-radius: 90px;
+}
+
+#innerCircle2,
+#innerCircle {
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    border: 10px solid #000000;
+}
+
+#outerSquare2,
+#outerSquare {
+    width: 200px;
+    height: 200px;
+    border: 10px solid #000000;
+}
+
+.relativeContainer {
+    position: relative;
+}
+
+#outerSquare2 {
+    z-index: 0;
+    background-color: #C1C1C1;
+}
+
+#innerCircle2 {
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    z-index: 1000;
+}
+
+.neighbours {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+
+
+

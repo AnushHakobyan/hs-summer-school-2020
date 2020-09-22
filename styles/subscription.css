@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+    background-color: #eaeaea;
+}
+
+.title {
+    font-size: 34px;
+    font-weight: bold;
+    color: #232323;
+    margin-bottom: 10px;
+}
+
+.headerNote {
+    font-size: 14px;
+    font-weight: normal;
+    color: #6f6f6f;
+    letter-spacing: 1.1px;
+}
+
+#offers {
+    margin: 0 auto;
+    width: 1260px;
+}
+
+.offer {
+    width: 400px;
+    height: 700px;
+    max-height: 700px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(68,68,68,0.3);
+    float: left;
+}
+
+.offerHighlight {
+    height: 200px;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+#platinium .offerHighlight {
+    background-color: #dde198;
+}
+
+#diamond .offerHighlight {
+    background-color: #e1acab;
+}
+
+#diamond {
+    margin: 0 30px;
+}
+
+#titanium .offerHighlight {
+    background-color: #74e1dd;
+}
+
+.clear {
+    clear: both;
+}
+
+.header {
+    width: 450px;
+    margin: 25px auto 55px;
+    text-align: center;
+}
+
+.subscribe {
+    height: 40px;
+    padding: 0 15px;
+    background-color: #59bc50;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+    margin-top: 25px;
+}
+
+.subscribe:hover {
+    background-color: #28992c;
+}
+
+.price {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.offerHighlight h4 {
+    font-size: 20px;
+    font-weight: normal;
+}

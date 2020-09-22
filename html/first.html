@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head title="Learning HTML">
+        <title>Learning HTML</title>
+        <link rel="stylesheet" href="../styles/first.css" />
+        <style>
+            .head {
+                color: rgb(189,25,42);
+            }
+            #headBlock {
+                border: 1px solid rgb(100, 15, 23);
+            }
+            span {
+                font-size: 25px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="headBlock">
+            <span>Heading tags </span><br /><span>from 1 to 6</span>
+            <h1 class="head">Heading 1</h1>
+            <h2 class="head">Heading 2</h2>
+            <h3 class="head">Heading 3</h3>
+            <h4 class="head">Heading 4</h4>
+            <h5 class="head">Heading 5</h5>
+            <h6 class="head">Heading 6</h6>
+        </div>
+        <hr />
+        <p>
+            <b>Chinese President Xi Jinping</b> <i>said Thursday that he is ready</i> to <u>work with his Russian counterpart</u> <s>Vladimir Putin</s>.
+        </p>
+        <p style="letter-spacing: 2.6px; color: rgb(26, 45, 135); background-color: rgb(119, 190, 213)">
+            Lorem ipsum dolor sit amet
+        </p>
+        <div>
+            <h2 class="listTitle">List tags</h2>
+            <h3>Ordered List</h3>
+            <ol>
+                <li>Winter</li>
+                <li>Spring</li>
+                <li>Summer</li>
+                <li>Autumn</li>
+            </ol>
+
+            <h3>Unordered List</h3>
+            <ul>
+                <li>Python</li>
+                <li>Javascript</li>
+                <li>C#</li>
+                <li>OCaml</li>
+            </ul>
+            <div>
+                <p>This summer I read those books:</p>
+                <ul>
+                    <li><i>Clean Coder</i></li>
+                    <li><b>House with many ways</b></li>
+                </ul>
+            </div>
+
+            <table cellspacing="10" cellpadding="7" border="1">
+                <thead>
+                    <tr>
+                       <th colspan="3">
+                           All the students
+                       </th>
+                    </tr>
+                    <tr>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Pr. Language</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Andranik</td>
+                        <td>Papikyan</td>
+                        <td>Javascript</td>
+                    </tr>
+                    <tr>
+                        <td>Aram</td>
+                        <td>Minasyan</td>
+                        <td>PHP</td>
+                    </tr>
+                    <tr>
+                        <td>Suzy</td>
+                        <td>Kostumyan</td>
+                        <td>Javascript</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td rowspan="2">HS Summer School</td>
+                        <td colspan="2">Students on Html Class</td>
+                    </tr>
+                    <tr>
+                        <td>2020</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <div>
+            <h2>Other sources</h2>
+            <img width="150" alt="Happy Dog" src="../resources/doggie_image.jpg" />
+            <a target="_blank" href="https://www.w3schools.com/">Some resource for html</a>
+        </div>
+        <div>
+            <h2>Form Elements</h2>
+            <form>
+                <label for="name">Name</label>
+                <input id="name" type="text" />
+
+                <label for="hours">Hourly work</label>
+                <input id="hours" type="number" />
+
+                <label for="lessonHours">Possible hours for lessons</label>
+                <select id="lessonHours">
+                    <option>8AM-10AM</option>
+                    <option>12AM-2PM</option>
+                    <option>6PM-8PM</option>
+                </select>
+
+                <label for="lecture">Lecture</label>
+                <input type="radio" value="lecture" name="lesson" id="lecture">
+
+                <label for="practical">Practical</label>
+                <input type="radio" value="practical" name="lesson" id="practical">
+                <br />
+                <label for="newClass">More Classes Available</label>
+                <input type="checkbox" value="available" id="newClass" >
+
+                <button type="submit">Save new class</button>
+                <button type="button">Cancel</button>
+            </form>
+        </div>
+    </body>
+</html>
+

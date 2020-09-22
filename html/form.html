@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../styles/first.css" />
+    </head>
+    <body>
+        <div id="form">
+            <h2>Form Elements</h2>
+            <form>
+                <label class="label" for="name">Name</label>
+                <input class="field" id="name" type="text" />
+                <p></p>
+
+                <label class="label" for="hours">Hourly work</label>
+                <input class="field" id="hours" type="text" />
+                <p></p>
+
+                <label class="label" for="lessonHours">Possible hours for lessons</label>
+                <select class="field" id="lessonHours">
+                    <option>8AM-10AM</option>
+                    <option>12AM-2PM</option>
+                    <option>6PM-8PM</option>
+                </select>
+
+                <label class="label" for="lecture">Lecture</label>
+                <input type="radio" value="lecture" name="lesson" id="lecture">
+
+                <label class="label" for="practical">Practical</label>
+                <input type="radio" value="practical" name="lesson" id="practical">
+                <br />
+                <label class="label" for="newClass">More Classes Available</label>
+                <input type="checkbox" value="available" id="newClass" >
+
+                <button type="submit">Save new class</button>
+                <button type="button">Cancel</button>
+            </form>
+        </div>
+        <script defer src="../script/form.js"></script>
+    </body>
+</html>

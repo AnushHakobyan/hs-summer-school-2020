@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial;
+    font-size: 12px;
+}
+
+#weatherList {
+    list-style: none;
+    width: 500px;
+    margin: 20px auto;
+}
+
+.weather {
+    font-size: 24px;
+    color: #565656;
+    cursor: pointer;
+}
